@@ -10,7 +10,7 @@ Public Class Form1
 
     Function FirstName(ByVal name As String) As String
         Dim idxSpace As Integer
-        idxSpace = name.IndexOf("")
+        idxSpace = name.IndexOf(" ")
 
         Dim fstname As String
         fstName = name.Substring(0, idxSpace)
